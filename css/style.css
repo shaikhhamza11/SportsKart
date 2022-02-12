@@ -12,7 +12,6 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
   color: var(--txt-color-dark);
   background: var(--bg-primary);
-  /* width: 100%; */
   position: sticky;
   top: 0;
   left: 0;
@@ -45,7 +44,7 @@
 #menu-list {
   position: absolute;
   top: 45px;
-  background: #e9e9e9;
+  background: var(--bg-menu);
   display: none;
   border-radius: 0.5rem;
 }
@@ -61,7 +60,6 @@
   display: block;
 }
 #account-dropdown + div ul li:first-child {
-  /* background: var(--hover-color); */
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 

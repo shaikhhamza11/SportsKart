@@ -7,6 +7,9 @@
   /* bg colors */
   --bg-primary: #c7d0f5;
 
+  /* menu bg */
+  --bg-menu: #8397ed;
+
   /* hover */
   --hover-color: #06645e;
 }
