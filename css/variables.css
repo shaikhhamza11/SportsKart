@@ -1,0 +1,12 @@
+/* color codes for e-commerce site */
+
+:root {
+  /* txt */
+  --txt-color-dark: #1a1818;
+
+  /* bg colors */
+  --bg-primary: #c7d0f5;
+
+  /* hover */
+  --hover-color: #06645e;
+}

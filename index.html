@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportsKart</title>
+    <!-- Component library -->
+    <link
+      rel="stylesheet"
+      href="https://encoreui.netlify.app/components/index.css"
+    />
+    <!-- Css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font aweseome kit -->
+    <script
+      src="https://kit.fontawesome.com/ea8d1510f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="flex align-center justify-sb p-2-5 fw-bold">
+      <a href="#" class="navbar-brand fs-3">SportsKart</a>
+      <nav id="navbar">
+        <ul class="flex align-center justify-sb p-2">
+          <li>
+            <a href="#" class="active fw-semi-bold">Home</a>
+          </li>
+          <li>
+            <a href="#" class="fw-semi-bold">Store</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-heart fa-2x"></i></a>
+          </li>
+          <li class="menu">
+            <a href="#"><i class="fa-solid fa-user fa-2x"></i></a>
+            <i class="fa fa-chevron-down" id="account-dropdown"></i>
+            <i class="fa fa-chevron-up" id="account-up"></i>
+            <div id="menu-list">
+              <ul>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+
+                <li>
+                  <a href="#">Signup</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Sports Kart</h1>
+        <h2 class="mt-1 fs-xl">Great Deals On all products</h1>
+        <p class="fs-m mt-1">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt,
+          ipsum?
+        </p>
+        <button class="fw-bold mt-1">Shop now</button>
+      </div>
+      <div class="hero-img">
+        <img
+          src="./assests/hero-img.png"
+          class="responsive-image"
+          alt="loading..."
+        />
+      </div>
+    </section>
+
+    <!-- <script src="https://encoreui.netlify.app/js/script.js"></script> -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

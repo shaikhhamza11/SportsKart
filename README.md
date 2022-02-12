@@ -1,2 +1,5 @@
 # SportsKart
- A ecommerce website for all your sports needs
+
+A e-commerce website for all your sports
+
+## Under construction
