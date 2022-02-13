@@ -12,4 +12,7 @@
 
   /* hover */
   --hover-color: #06645e;
+
+  /* Rating color*/
+  --star-color: rgb(180, 138, 12);
 }
