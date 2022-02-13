@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportsKart</title>
+    <!-- Component library -->
+    <link
+      rel="stylesheet"
+      href="https://encoreui.netlify.app/components/index.css"
+    />
+    <!-- Css file -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <!-- Font aweseome kit -->
+    <script
+      src="https://kit.fontawesome.com/ea8d1510f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="flex align-center justify-sb p-2-5 fw-bold">
+      <a href="../index.html" class="navbar-brand fs-3">SportsKart</a>
+      <nav id="navbar">
+        <ul class="flex align-center justify-sb p-2" id="navbar-lists">
+          <li>
+            <a href="../index.html" class="fw-semi-bold">Home</a>
+          </li>
+          <li>
+            <a href="#" class="fw-semi-bold">Store</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-heart fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#" class="active fw-semi-bold">Login</a>
+          </li>
+          <li>
+            <a href="../pages/sign-up.html" class="fw-semi-bold">Signup</a>
+          </li>
+          <i class="fa-solid fa-xmark fa-1x" id="close-navbar"></i>
+        </ul>
+      </nav>
+      <div id="hamburger">
+        <i class="fa-solid fa-bars" id="bar"></i>
+      </div>
+    </header>
+
+    <section id="login">
+      <div class="login-container m-0-2">
+        <div class="login-img flex align-center">
+          <img
+            src="../assests/hero-img.png
+            "
+            class="responsive-image"
+            alt=""
+          />
+        </div>
+        <div class="login flex justify-center align-center">
+          <div class="login-card mt-3">
+            <h3 class="center mt-1">Login</h3>
+            <form action="#" class="login-form">
+              <div class="form-group mt-2">
+                <label class="fs-m" for="email">Email</label>
+                <input type="text" id="email" />
+              </div>
+              <div class="form-group mt-2">
+                <label class="fs-m" for="password">Password</label>
+                <input type="text" id="password" />
+              </div>
+              <div class="button btn-danger m-2 fs-m center">Login</div>
+            </form>
+            <p class="fs-m forget-password">
+              <a href="../pages/forgot-password.html">Forget Password?</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-2 p-2 center">
+      <h4>Made with <i class="fa-solid fa-heart fa-1x"></i> by Hamza Shaikh</h4>
+      <div class="flex align-center justify-center">
+        <a href="#"><i class="fa-brands fa-linkedin fa-3x m-3"></i></a>
+        <a href="#"><i class="fa-brands fa-github fa-3x m-3"></i></a>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
