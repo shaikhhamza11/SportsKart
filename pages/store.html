@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportsKart</title>
+    <!-- Component library -->
+    <link
+      rel="stylesheet"
+      href="https://encoreui.netlify.app/components/index.css"
+    />
+    <!-- Css file -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/store.css" />
+    <!-- Font aweseome kit -->
+    <script
+      src="https://kit.fontawesome.com/ea8d1510f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="flex align-center justify-sb p-2-5 fw-bold">
+      <a href="../index.html" class="navbar-brand fs-3">SportsKart</a>
+      <nav id="navbar">
+        <ul class="flex align-center justify-sb p-2" id="navbar-lists">
+          <li>
+            <a href="../index.html" class="fw-semi-bold">Home</a>
+          </li>
+          <li>
+            <a href="#" class="active fw-semi-bold">Store</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-heart fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#" class="fw-semi-bold">Login</a>
+          </li>
+          <li>
+            <a href="../pages/sign-up.html" class="fw-semi-bold">Signup</a>
+          </li>
+          <i class="fa-solid fa-xmark fa-1x" id="close-navbar"></i>
+        </ul>
+      </nav>
+      <div id="hamburger">
+        <i class="fa-solid fa-bars" id="bar"></i>
+      </div>
+    </header>
+
+    <section id="store">
+      <div class="product-filters">
+        <div class="product-heading flex justify-sb align-center p-1">
+          <h4 class="pointer">Filters</h4>
+          <h4 class="pointer">Clear Filters</h4>
+        </div>
+        <div class="category p-1 fs-m">
+          <h4>Category</h4>
+          <input type="checkbox" id="men" name="men" value="Men" />
+          <label for="men" class="ml-05">Men Shoes</label><br />
+          <input type="checkbox" id="women" name="women" value="Women" />
+          <label for="women" class="ml-05">Women Shoes</label><br />
+          <input type="checkbox" id="kids" name="kids" value="kids" />
+          <label for="kids" class="ml-05"> Kids Clothing</label><br /><br />
+        </div>
+        <div class="rating p-1 fs-m">
+          <h4>Rating</h4>
+          <input type="radio" name="rating" id="4-stars" />
+          <label for="4-stars" class="ml-05">4 stars & above </label>
+          <input type="radio" name="rating" id="3-stars" />
+          <label for="3-stars" class="ml-05">3 stars & above </label>
+          <input type="radio" name="rating" id="2-stars" />
+          <label for="2-stars" class="ml-05">2 stars & above </label>
+          <input type="radio" name="rating" id="1-stars" />
+          <label for="1-stars" class="ml-05">1 stars & above </label>
+        </div>
+        <div class="rating p-1 fs-m">
+          <h4>Rating</h4>
+          <input type="radio" name="price-rating" id="low-to-high" />
+          <label for="low-to-high" class="ml-05">Price- low to high </label>
+          <input type="radio" name="price-rating" id="high-to-low" />
+          <label for="high-to-low" class="ml-05">Price- low to high</label>
+        </div>
+      </div>
+      <div class="product-list">
+        <section id="featured-product" class="center">
+          <h2 class="mt-1">Product-List</h2>
+          <div class="product-container">
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/alex-_AOL4_fDQ3M-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/braden-hopkins-2-7vd8dvyoI-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/braden-hopkins-b4sSOgZrkQ4-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>80k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/braden-hopkins-PoxqHu1aYvo-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/alex-_AOL4_fDQ3M-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/braden-hopkins-b4sSOgZrkQ4-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/alex-_AOL4_fDQ3M-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+            <div class="product mt-3 cards-shadow">
+              <img
+                src="../assests/featured/braden-hopkins-2-7vd8dvyoI-unsplash.jpg"
+                alt="loading..."
+              />
+              <div class="product-description">
+                <span class="fs-m">Nike</span>
+                <h3>Alpha 11</h3>
+                <div class="star-raing">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>20k &#8377;</h4>
+              </div>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping fa-2x cart"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

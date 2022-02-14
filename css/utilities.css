@@ -1,0 +1,13 @@
+.pointer {
+  cursor: pointer;
+}
+
+label:hover ~ label,
+input[type="radio"]:checked ~ label {
+  color: black;
+}
+
+label {
+  display: inline-block;
+  width: 85%;
+}
