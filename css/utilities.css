@@ -11,3 +11,7 @@ label {
   display: inline-block;
   width: 85%;
 }
+
+.color-hover {
+  color: var(--hover-color);
+}

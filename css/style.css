@@ -123,13 +123,13 @@ p {
 #featured-product {
   padding: 4rem 8rem;
 }
-#featured-product .product-container {
+.product-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 3rem;
 }
-#featured-product .product {
+.product {
   width: 23%;
   min-width: 25rem;
   border: 1px solid #cce7d0;
@@ -157,16 +157,28 @@ p {
   margin: 1rem 0;
   color: var(--star-color);
 }
-#featured-product .product-container .cart {
+.product-container .icon-style {
   width: 4rem;
   height: 4rem;
   border-radius: 30%;
-  color: var(--hover-color);
   background-color: var(--bg-primary);
-  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-container .cart {
+  color: var(--hover-color);
   position: absolute;
   bottom: 7px;
   right: 20px;
+}
+.product-container .heart {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+.product-container .heart:hover {
+  color: var(--red);
 }
 
 /* New Arrival */
