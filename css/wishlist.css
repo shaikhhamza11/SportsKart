@@ -1,0 +1,7 @@
+.product-container {
+  justify-content: center;
+}
+
+.product-container .heart {
+  color: var(--red);
+}
