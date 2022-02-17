@@ -12,7 +12,7 @@
     />
     <!-- Css file -->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
     <!-- Font aweseome kit -->
     <script
       src="https://kit.fontawesome.com/ea8d1510f0.js"
@@ -33,7 +33,7 @@
           </li>
           <li>
             <a href="../pages/cart.html"
-              ><i class="fa-solid fa-cart-shopping fa-2x"></i
+              ><i class="color-hover fa-solid fa-cart-shopping fa-2x"></i
             ></a>
           </li>
           <li>
@@ -55,33 +55,46 @@
       </div>
     </header>
 
-    <section id="login">
-      <div class="login-container m-0-2">
-        <div class="login-img flex align-center">
-          <img
-            src="../assests/undraw_junior_soccer_6sop.svg
-            "
-            class="responsive-image"
-            alt=""
-          />
+    <section id="cart" class="p-4 m-2">
+      <h2 class="center mt-1">My Cart(2)</h2>
+      <div class="cart-container">
+        <div class="card cart-details cards-shadow">
+          <div class="cart-image">
+            <img
+              src="../assests/featured/braden-hopkins-PoxqHu1aYvo-unsplash.jpg"
+              alt=""
+              class="responsive-image"
+            />
+          </div>
+          <div class="cart-desc">
+            <h2 class="p-2 ml-1 fw-semi-bold">Nike Air Jordan</h2>
+            <button class="button">Remove from cart</button>
+            <button class="button">Add to wishlist</button>
+          </div>
         </div>
-        <div class="login flex justify-center align-center">
-          <div class="login-card mt-3">
-            <h3 class="center mt-1">Forgot password</h3>
-            <form action="#" class="login-form">
-              <div class="form-group mt-2">
-                <label class="fs-m" for="email">Email</label>
-                <input type="text" id="email" />
-              </div>
-
-              <div class="button btn-danger m-2 fs-m center">Get link</div>
-            </form>
+        <div class="price-details card card-text cards-shadow">
+          <h3 class="border-bottom pb-1">Price Details</h3>
+          <div class="flex justify-sb mt-2">
+            <h4>Price</h4>
+            <h4>40000</h4>
+          </div>
+          <div class="flex justify-sb mt-2">
+            <h4>Discount</h4>
+            <h4>-10000</h4>
+          </div>
+          <div class="flex justify-sb border-bottom pb-1 mt-2">
+            <h4>Delievery Charges</h4>
+            <h4>500</h4>
+          </div>
+          <div class="flex justify-sb mt-2">
+            <h4>Total</h4>
+            <h4>35000</h4>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="p-2 center">
+    <footer class="mt-1 p-2 center">
       <h4>Made with <i class="fa-solid fa-heart fa-1x"></i> by Hamza Shaikh</h4>
       <div class="flex align-center justify-center">
         <a href="#"><i class="fa-brands fa-linkedin fa-3x m-3"></i></a>
