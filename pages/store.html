@@ -61,6 +61,15 @@
           <h4 class="pointer">Filters</h4>
           <h4 class="pointer">Clear Filters</h4>
         </div>
+        <div class="price p-1 fs-m">
+          <h4>Price</h4>
+
+          <div class="flex align-center justify-sb mt-1">
+            <label for="minprice">20k</label>
+            <input type="range" id="price" min="50" max="100" />
+            <label for="maxprice">100k</label>
+          </div>
+        </div>
         <div class="category p-1 fs-m">
           <h4>Category</h4>
           <input type="checkbox" id="men" name="men" value="Men" />
@@ -82,7 +91,7 @@
           <label for="1-stars" class="ml-05">1 stars & above </label>
         </div>
         <div class="rating p-1 fs-m">
-          <h4>Rating</h4>
+          <h4>Sort By</h4>
           <input type="radio" name="price-rating" id="low-to-high" />
           <label for="low-to-high" class="ml-05">Price- low to high </label>
           <input type="radio" name="price-rating" id="high-to-low" />
